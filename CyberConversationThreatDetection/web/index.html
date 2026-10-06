@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cyber Conversation Threat Monitor</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand">◈ CyberWatch</div><div class="sub">Conversation Threat Detection · Aho–Corasick</div></header>
+<main>
+  <section class="hero"><div><p class="eyebrow">DSA PROJECT</p><h1>Cybersecurity Conversation<br><span>Threat Monitor</span></h1>
+  <p>Analyze authorized text conversations for cybersecurity indicators. Matches are signals for review, not proof of intent.</p></div>
+  <div class="status"><span class="pulse"></span> Local analysis server</div></section>
+  <section class="metrics">
+    <div class="metric"><small>Conversations</small><strong id="conversations">—</strong></div>
+    <div class="metric"><small>Messages</small><strong id="messages">—</strong></div>
+    <div class="metric"><small>Threat patterns</small><strong id="patterns">—</strong></div>
+    <div class="metric"><small>Flagged for review</small><strong id="flagged">—</strong></div>
+  </section>
+  <section class="panel">
+    <div class="panelhead"><div><p class="eyebrow">LIVE TEXT ANALYSIS</p><h2>Analyze a conversation</h2></div><button id="sampleBtn" class="secondary">Load sample</button></div>
+    <textarea id="conversation" placeholder="Paste an authorized conversation here..."></textarea>
+    <div class="actions"><span>Patterns are matched with Aho–Corasick.</span><button id="analyzeBtn">Analyze conversation ↗</button></div>
+    <div id="result" class="result hidden"></div>
+  </section>
+  <section class="panel">
+    <div class="panelhead"><div><p class="eyebrow">BUNDLED DATASET</p><h2>Dataset scan</h2></div><button id="rescanBtn" class="secondary">Rescan dataset</button></div>
+    <p id="datasetResult" class="muted">Run a scan to summarize the bundled synthetic conversation dataset.</p>
+  </section>
+  <footer>Built for defensive cybersecurity research · Synthetic sample data · Human review recommended</footer>
+</main><script src="app.js"></script>
+</body></html>

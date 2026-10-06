@@ -1,0 +1,74 @@
+pattern,category,severity
+phishing,Phishing,4
+phishing link,Phishing,5
+suspicious link,Phishing,3
+fake login page,Phishing,5
+verify your account,Phishing,3
+credential theft,Credential Theft,6
+stolen credentials,Credential Theft,6
+login credentials,Credential Theft,4
+password theft,Credential Theft,6
+entered my password,Credential Theft,4
+ransomware,Ransomware,6
+encrypted files,Ransomware,5
+ransom note,Ransomware,5
+decrypt files,Ransomware,4
+malware,Malware,5
+trojan,Malware,5
+infected file,Malware,4
+malicious software,Malware,5
+keylogger,Malware,5
+spyware,Malware,5
+brute force,Brute Force,4
+password guessing,Brute Force,4
+repeated login attempts,Brute Force,4
+failed login attempts,Account Compromise,3
+unauthorized login,Account Compromise,5
+unusual login,Account Compromise,3
+compromised account,Account Compromise,5
+account compromise,Account Compromise,5
+data breach,Data Breach,6
+leaked data,Data Breach,5
+exposed database,Data Breach,5
+stolen records,Data Breach,5
+sql injection,SQL Injection,5
+vulnerable query,SQL Injection,4
+cross-site scripting,XSS,5
+xss,XSS,4
+injected script,XSS,4
+social engineering,Social Engineering,4
+impersonating the administrator,Social Engineering,4
+fake administrator,Social Engineering,4
+insider threat,Insider Threat,5
+confidential data,Insider Threat,3
+unauthorized access,Unauthorized Access,5
+privilege escalation,Privilege Escalation,5
+security bypass,Security Bypass,5
+suspicious download,Suspicious Activity,3
+unusual access,Suspicious Activity,3
+exfiltrate data,Data Exfiltration,6
+data exfiltration,Data Exfiltration,6
+command and control,Malware,5
+botnet,Malware,4
+multi-factor authentication,Security Control,1
+mfa,Security Control,1
+security patch,Security Hygiene,1
+antivirus update,Security Hygiene,1
+incident response,Security Operations,1
+security alert,Security Operations,1
+report the incident,Security Operations,1
+backup restored,Security Hygiene,1
+patch the server,Security Hygiene,1
+firewall rule,Security Hygiene,1
+endpoint detection,Security Operations,1
+vulnerability scan,Security Operations,1
+security audit,Security Operations,1
+suspicious attachment,Phishing,4
+malicious attachment,Malware,5
+remote access tool,Suspicious Activity,3
+data loss prevention,Security Operations,1
+token theft,Credential Theft,5
+session hijacking,Account Compromise,5
+privileged account,Privilege Escalation,3
+zero-day vulnerability,Vulnerability,5
+unpatched vulnerability,Vulnerability,4
